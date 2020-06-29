@@ -31,7 +31,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://lh3.googleusercontent.com/proxy/CALISCbL2x4WvVAHAl3WD08PKHAnr83x32v5OqX36GHarU8_rVcExoIPD1L7v8yszD30E7XcXAMkNzMgVBGT_2gTr6B6zOQ2PvMB0L2da3YUsj7FwhAgAw"
+            src="https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             alt="Third slide"
           />
 
