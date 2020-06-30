@@ -12,7 +12,7 @@ export default function Home() {
       <span className="separador"></span>
       <div className="submenu">
         <h1>Radio of today</h1>
-        <img className="dailyradio" src="https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/08/GettyImages-74255351.jpg"/>
+        <img className="dailyradio" src="https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/08/GettyImages-74255351.jpg" alt="daily radio"/>
         <h2>Check it out!</h2>
         <audio controls="controls">
           <source src="https://radios.yanapak.org/radio_trama" type="audio/ogg" />

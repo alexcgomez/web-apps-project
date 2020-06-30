@@ -56,8 +56,9 @@ img {
 }
 
 .cover{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  margin: auto 0 auto 1rem;
 }
 .separador{
 height:100px;
@@ -75,9 +76,9 @@ margin:2% 10% 0% 10%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);  
+  background: linear-gradient(to bottom, #434343, #000000); 
 
 }
 
@@ -86,29 +87,29 @@ margin:2% 10% 0% 10%;
 }
 
 .submenu2{
-  height:1000px;
+  height:auto;
   max-width: 1500px;
   margin: 0% 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);  
+  background: linear-gradient(to bottom, #434343, #000000); 
 
 }
 
 
 .song-box{
-  height: 95%;
-  width: 95%;
-  background-color: white;
+  height: 100%;
+  width: 100%;
+  
   border-right: 7px double rgba(61,61,61,0.77);
-  margin-left: 2rem;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .song{
@@ -116,12 +117,70 @@ margin:2% 10% 0% 10%;
   margin: 1rem 0.5rem;
   display:flex;
   flex-direction: row;
+  background-color: white;
 }
 
 .datasong{
   margin: 0 1rem;
   width: 80%;
 }
+
+
+/*Contact*/
+
+
+#contact-form{
+  height:700px;
+  max-width: 1500px;
+  margin:10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#contact-form h1{
+  color:white;
+}
+#contact-form h2{
+  color:white;
+}
+
+#contact-form label{
+  color:white;
+  font-weight: bold;
+}
+
+#contact-form input {
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  border-color: white;
+}
+
+#contact-form textarea {
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  font-size: 15px;
+  margin: 10px;
+
+  background: transparent;
+  color: white;
+  border-color: white;
+  
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 
 
 .footer {
